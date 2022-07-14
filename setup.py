@@ -1,11 +1,12 @@
+#TO CREATE A PACKAGE
 from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 ## edit below variables as per your requirements -
-REPO_NAME = "MLflow-project-template"
-AUTHOR_USER_NAME = "c17hawke"
+REPO_NAME = "MLFLOW-CNN"
+AUTHOR_USER_NAME = "aquib97"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
 
@@ -18,9 +19,9 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
-    author_email="sunny.c17hawke@gmail.com",
+    author_email="aquib.farhaan786.com",
     packages=[SRC_REPO],
-    license="MIT",
+    license="GNU General Public License v3.0",
     python_requires=">=3.6",
     install_requires=LIST_OF_REQUIREMENTS
 )
